@@ -2,7 +2,7 @@
 /*
   Plugin Name: WooCommerce Units
   Plugin URI: http://milentijevic.com/wordpress-plugins/
-  Version: 0.1.0
+  Version: 0.1
   Description: Sell WooCommerce Products per Unit.
   Author: Mladjo
   Author URI: http://milentijevic.com
