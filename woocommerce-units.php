@@ -2,7 +2,7 @@
 /*
   Plugin Name: WooCommerce Units
   Plugin URI: http://milentijevic.com/wordpress-plugins/
-  Version: 0.1
+  Version: 0.1.1
   Description: Sell WooCommerce Products per Unit.
   Author: Mladjo
   Author URI: http://milentijevic.com
@@ -175,7 +175,7 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                             return '<span class="amount">' . sprintf(get_woocommerce_price_format(), get_woocommerce_currency_symbol(), $product->regular_price) . get_option('woocommerce_dimension_unit').'&sup2; </span>';
                         }
                 endif;
-                return $price . ' m&sup2;';
+                return $price . get_option('woocommerce_dimension_unit').'&sup2;';
             }
 
             // Modifies variable price display
